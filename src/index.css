@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primaria: #1e3a8a ;
+    --color-destaque: #facc15 ;
+    --color-fundo: #ffffff ;
+
+    /* Novas cores */
+    --color-noturno: #0f172a;   
+    --color-cinza-fundo: #f8fafc;
+    --color-texto-mutado: #64748b;
+    --color-energia: #f97316;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
