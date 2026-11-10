@@ -4,7 +4,7 @@ function Rodape() {
     return (
         <footer className="bg-noturno text-white py-8 px-6 text-center text-sm border-t border-gray-800"> 
             <p className="font-semibold">{evento.nome} • {evento.data}</p>
-            <p className="text-texto-mutado text-xs mt-2">© 2026 Todos os direitos reservados. {evento.local}.</p>
+            <p className="text-gray-400 text-xs mt-2">© 2026 Todos os direitos reservados. {evento.local}.</p>
         </footer>
     )
 }

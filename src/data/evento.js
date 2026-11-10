@@ -51,3 +51,15 @@ export const perguntas = [
         resposta: 'Pode, com volume baixo, para ouvir os avisos.'
     }
 ]
+
+export const numeros = [
+    {
+        numero: '3', subtitulo: 'percursos'
+    },
+    {
+        numero: '1.500', subtitulo: 'participantes'
+    },
+    {
+        numero: '6', subtitulo: 'pontos de hidratação'
+    }
+]

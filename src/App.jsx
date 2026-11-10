@@ -6,15 +6,18 @@ import Cabecalho from "./components/Cabecalho";
 import Inscricao from "./components/Inscricao";
 import Sobre from "./components/Sobre";       
 import Perguntas from "./components/Perguntas"; 
+import Numeros from "./components/Numeros";
 
 function App() {
   return (
-    <main className="bg-fundo min-h-screen">
+    <main id="conteudo" className="bg-fundo min-h-screen">
       <Cabecalho />
 
       <Hero />
 
       <Sobre />
+
+      <Numeros />
 
       <div className="text-center my-12">
         <a

@@ -7,11 +7,11 @@ function Programacao() {
         Programação do Evento
       </h2>
 
-      <div className="space-y-4">
+      <ul className="space-y-4">
         {" "}
         {/* Vertical */}
         {programacao.map((item) => (
-          <div
+          <li
             key={item.horario}
             className="flex items-center gap-4 bg-white p-4 rounded-xl shadow border-l-4 border-energia"
           >
@@ -20,9 +20,9 @@ function Programacao() {
             </span>
 
             <p className="text-gray-700 font-medium">{item.atividade}</p>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }

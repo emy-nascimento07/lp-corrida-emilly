@@ -2,8 +2,15 @@ function Cabecalho() {
   return (
     <header className="sticky top-0 z-50 bg-noturno text-white shadow-md px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
       
+    <a
+      href="#conteudo"
+      className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:bg-destaque focus:text-blue-900 focus:font-bold focus:px-4 focus:py-2 focus:rounded-lg focus:shadow-md focus:z-50"
+    >
+      Pular para o conteúdo
+    </a>
+
       <a href="#" className="text-xl font-extrabold tracking-wider hover:text-destaque transition-colors flex items-center gap-2">
-        <span>🏃‍♂️</span> Corrida Noturna OC
+        <span aria-hidden="true">🏃‍♂️</span> Corrida Noturna OC
       </a>
 
       <nav>
