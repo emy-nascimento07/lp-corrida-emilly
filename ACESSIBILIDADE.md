@@ -3,7 +3,7 @@
 ## Antes
 - Nota do Lighthouse (mobile): 95.
 - Problemas apontados pelo Lighthouse: O plano de fundo não possui contraste o suficiente.
-- Problemas apontados pelo axe:
+- Problemas apontados pelo axe: 0.
 - Problemas encontrados no teste do teclado: Nenhum.
 
 ## Depois
