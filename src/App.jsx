@@ -7,6 +7,7 @@ import Inscricao from "./components/Inscricao";
 import Sobre from "./components/Sobre";       
 import Perguntas from "./components/Perguntas"; 
 import Numeros from "./components/Numeros";
+import Grafico from "./components/Grafico";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <Percurso />
 
       <Programacao />
+
+      <Grafico />
 
       <Inscricao />
 

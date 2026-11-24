@@ -1,3 +1,5 @@
+import BotaoLembrete from "./BotaoLembrete";
+
 function Hero() {
   return (
     <section className="bg-primaria px-4 py-20 text-white flex flex-col items-center text-center">
@@ -5,6 +7,7 @@ function Hero() {
       <p className="mt-4 max-w-md">
         Dia 17 de abril, largada às 19:30 na Praça Central.
       </p>
+      <BotaoLembrete/>
     </section>
   );
 }
