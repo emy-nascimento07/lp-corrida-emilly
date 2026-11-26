@@ -36,7 +36,7 @@ function Perguntas() {
   return (
     <section id="perguntas" className="py-12 px-4 max-w-3xl mx-auto">
       <h2 className="text-3xl font-bold mb-8 text-center text-primaria">
-        Dúvidas Frequentes
+        Perguntas Frequentes
       </h2>
 
       <div className="flex flex-col gap-4">
