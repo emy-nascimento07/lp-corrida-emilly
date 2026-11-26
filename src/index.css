@@ -16,10 +16,29 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Evita que o cabeçalho fixo cubra o título das seções ao clicar no menu */
+section[id] {
+  scroll-margin-top: 6rem;
+}
+
+@media (min-width: 768px) {
+  section[id] {
+    scroll-margin-top: 4.5rem;
+  }
+}
+
+/* Foco visível de alto contraste em fundos claros */
 :focus-visible {
-  outline: 3px solid var(--color-destaque);
+  outline: 3px solid var(--color-primaria);
   outline-offset: 3px;
   border-radius: 4px;
+}
+
+/* Foco visível amarelo em fundos escuros (Cabeçalho, Hero e Rodapé) */
+header :focus-visible,
+footer :focus-visible,
+.bg-primaria :focus-visible {
+  outline-color: var(--color-destaque);
 }
 
 .bg-destaque:focus-visible {

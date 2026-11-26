@@ -8,7 +8,7 @@
 
 ## Depois
 - Nota do Lighthouse (mobile): 100.
-- O que foi corrigido: or de fundo e tamanho das letras.
+- O que foi corrigido: cor de fundo e tamanho das letras.
 - O que ainda não está bom (e por quê): Foco.
 
 ## Um problema que a ferramenta NÃO apontou e eu encontrei
